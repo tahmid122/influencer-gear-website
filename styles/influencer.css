@@ -95,6 +95,20 @@ section {
   justify-content: center;
   object-fit: cover;
 }
+/* sponsors section */
+.sponsors {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
 /* media query */
 @media screen and (max-width: 576px) {
   header {

@@ -148,6 +148,18 @@ section {
   font-weight: bold;
   color: rgba(120, 120, 133, 1);
 }
+.see-more {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(224, 44, 109, 1);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  cursor: pointer;
+}
 /* media query */
 @media screen and (max-width: 576px) {
   header {
